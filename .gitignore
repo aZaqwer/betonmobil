@@ -1,3 +1,6 @@
 node_modules/
 betonmobil/
 gulpfile.js
+package.json
+howtouse.txt
+.gitignore
