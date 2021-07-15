@@ -145,8 +145,62 @@ body {
     // .steps-item__text
 
     &__text {
-        font-size: 16px;
-        line-height: 140%;
+    }
+}
+
+//====================================================================================================
+
+.features {
+    // .features__content
+
+    &__content {
+        padding: 70px 0px 0px 0px;
+    }
+
+    // .features__content-bg
+    &__content-bg {
+        background: linear-gradient(0deg, #ffffff 4.18%, rgba(255, 255, 255, 0) 23.32%),
+            linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 93.52%),
+            url("../img/bg-features.png") center / cover no-repeat;
+    }
+    // .features__title
+
+    &__title {
+        text-align: center;
+        margin: 0px 0px 56px 0px;
+    }
+
+    // .features__row
+
+    &__row {
+        display: flex;
+        align-items: center;
+        padding: 70px 0px 0px 0px;
+    }
+
+    // .features__column
+
+    &__column {
+        flex: 0 1 33.333%;
+    }
+
+    // .features__item
+
+    &__item {
+        margin: 0px 0px 532px 0px;
+        text-align: center;
+    }
+
+    // .features__subtitle
+
+    &__subtitle {
+        margin: 0px 0px 15px 0px;
+    }
+
+    // .features__text
+
+    &__text {
+        padding: 0px 100px;
     }
 }
 
