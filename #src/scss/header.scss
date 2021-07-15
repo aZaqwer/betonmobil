@@ -85,13 +85,13 @@
     // .header-main__body
 
     &__body {
-        padding: 0px 80px 0px 0px;
+        padding: 87px 80px 0px 0px;
     }
     // .header-main__row
 
     &__row {
         display: flex;
-        padding: 90px 0px 10px 0px;
+        padding: 0px 0px 10px 0px;
     }
 
     // .header-main__column
@@ -148,7 +148,9 @@
         box-shadow: 1px 0px 0px 18px rgba(61, 155, 233, 0.3);
         border-radius: 50%;
         padding: 24px;
-
+        position: absolute;
+        bottom: -28px;
+        right: 18px;
         img {
             height: 53px;
             width: 53px;
@@ -158,11 +160,11 @@
     // .header-main__btn-phone
     &__btn-phone {
         //background: url("../img/bg-header.png") center / cover no-repeat;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
+        // display: flex;
+        // justify-content: flex-end;
+        // align-items: flex-end;
         flex: 1 1 auto;
-        padding: 70px 0px 0px 0px;
+        position: relative;
     }
 
     // .header-main__btn-phone
