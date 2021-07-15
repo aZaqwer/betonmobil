@@ -95,5 +95,59 @@ body {
     flex: 1 1 auto;
 }
 //===================================================================================================================================
+.steps {
+    // .steps__content
+
+    &__content {
+    }
+
+    // .steps__row
+
+    &__row {
+        display: flex;
+        align-items: center;
+        margin: 0px -15px;
+        padding: 50px 0px 70px 0px;
+    }
+
+    // .steps__column
+
+    &__column {
+        flex: 0 1 33.333%;
+        padding: 0px 15px;
+    }
+
+    // .steps__item
+
+    &__item {
+        background: #fefefe;
+        border-radius: 6px;
+        text-align: center;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 40px 105px 50px 105px;
+    }
+}
+
+.steps-item {
+    // .steps-item__number
+
+    &__number {
+        margin: 0px 0px 20px 0px;
+    }
+
+    // .steps-item__title
+
+    &__title {
+        margin: 0px 0px 20px 0px;
+    }
+
+    // .steps-item__text
+
+    &__text {
+        font-size: 16px;
+        line-height: 140%;
+    }
+}
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================

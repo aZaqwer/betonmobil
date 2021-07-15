@@ -45,6 +45,13 @@
     // .btn_phone
 
     &_phone {
+        transition: background 0.5s ease 0s;
+        @media (min-width: 992px) {
+            &:hover {
+                background: #3ea0f0;
+                transition: background 0.5s ease 0s;
+            }
+        }
     }
 }
 //</BUTTONS>====================================================================================================
