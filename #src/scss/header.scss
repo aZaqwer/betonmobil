@@ -1,5 +1,6 @@
 //====================================================================================================
 .header {
+    background: url("../img/bg.png") center / cover no-repeat;
     // .header__content
 
     &__content {
@@ -8,6 +9,10 @@
     // .header__header
 
     &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 57px 0px 20px 0px;
     }
 
     // .header__logo
@@ -18,6 +23,9 @@
     // .header__phone
 
     &__phone {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 98.44%;
     }
 
     // .header__menu
@@ -45,53 +53,121 @@
     // .menu__list
 
     &__list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     // .menu__item
 
     &__item {
+        margin: 0px 54px 0px 0px;
+        &:last-child {
+            margin: 0;
+        }
     }
 
     // .menu__link
 
     &__link {
+        font-weight: 500;
+        font-size: 18px;
+        color: $mainColor;
+        transition: color 0.5s ease 0s;
+        &:hover {
+            color: rgb(170, 170, 170);
+            transition: color 0.5s ease 0s;
+        }
     }
 }
 
 .header-main {
+    // .header-main__body
+
+    &__body {
+        padding: 0px 80px 0px 0px;
+    }
     // .header-main__row
 
     &__row {
+        display: flex;
+        padding: 90px 0px 10px 0px;
     }
 
     // .header-main__column
 
     &__column {
+        flex: 0 1 50%;
+        display: flex;
+        flex-direction: column;
     }
 
     // .header-main__subtitle
 
     &__subtitle {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 98.44%;
+        margin: 0px 0px 5px 0px;
     }
 
     // .header-main__title
 
     &__title {
+        font-weight: 900;
+        font-size: 70px;
+        line-height: 98.44%;
+        letter-spacing: 0.035em;
+        font-variant: small-caps;
+        margin: 0px 0px 10px 0px;
     }
 
     // .header-main__text
 
     &__text {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 109.44%;
+        margin: 0px 0px 60px 0px;
     }
 
     // .header-main__button-zakaz
 
     &__button-zakaz {
+        font-weight: 700;
+        height: 64px;
+        line-height: 64px;
+        padding: 0px 105px;
+        width: 312px;
     }
 
     // .header-main__button
 
     &__button {
+        background: rgba(61, 155, 233, 0.8);
+        box-shadow: 1px 0px 0px 18px rgba(61, 155, 233, 0.3);
+        border-radius: 50%;
+        padding: 24px;
+
+        img {
+            height: 53px;
+            width: 53px;
+        }
+    }
+
+    // .header-main__btn-phone
+    &__btn-phone {
+        //background: url("../img/bg-header.png") center / cover no-repeat;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex: 1 1 auto;
+        padding: 70px 0px 0px 0px;
+    }
+
+    // .header-main__btn-phone
+    &__btn-bg {
+        max-height: 484px;
     }
 }
 
