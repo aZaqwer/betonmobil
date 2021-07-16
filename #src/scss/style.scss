@@ -381,7 +381,7 @@ body {
 }
 
 .form-zakaz {
-    padding: 150px 0px 180px 0px;
+    padding: 150px 0px 180px 60px;
     // .form-zakaz__input-name
 
     &__input-name {
@@ -391,7 +391,7 @@ body {
         line-height: 20px;
         color: rgba(51, 51, 51, 0.7);
         border-bottom: 1px solid $mainColor;
-        margin: 0px 0px 50px 12px;
+        margin: 0px 0px 50px 0px;
         padding-bottom: 14px;
     }
 
@@ -420,6 +420,8 @@ body {
 
     &__text {
         color: $mainColor;
+        font-size: 12px;
+        line-height: 15px;
     }
 }
 
