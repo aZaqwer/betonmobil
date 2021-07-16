@@ -273,6 +273,61 @@ body {
     &__datagrid-pr {
         padding-right: 60px;
     }
+
+    // .price-item__service
+
+    &__service {
+        margin: 0px 0px 37px 0px;
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    // .price-item__service-title
+
+    &__service-title {
+        margin: 0px 0px 10px 0px;
+    }
+
+    // .price-item__service-text
+
+    &__service-text {
+        font-size: 16px;
+        line-height: 139.5%;
+    }
+
+    // .price-item__service-phone
+
+    &__service-phone {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 98.44%;
+        color: rgba(51, 51, 51, 0.8);
+        margin: 40px 0px 45px 0px;
+    }
+
+    // .price-item__service-link
+
+    &__service-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 131%;
+        color: $mainColor;
+        display: inline-block;
+        position: relative;
+        padding: 35px 0px 0px 70px;
+        &::before {
+            content: "";
+            background: url("../img/icons/price-list.svg") 0 0 no-repeat;
+            height: 82px;
+            width: 58px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
 }
+
+//===================================================================================================================
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
