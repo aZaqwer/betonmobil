@@ -329,5 +329,98 @@ body {
 }
 
 //===================================================================================================================
+.zakaz {
+    background: #f8f8f8;
+    // .zakaz__content
+
+    &__content {
+        padding: 105px 0px 0px 0px;
+    }
+
+    // .zakaz__title
+
+    &__title {
+        text-align: center;
+        margin: 0px 0px 10px 0px;
+    }
+
+    // .zakaz__subtitle
+
+    &__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    // .zakaz__row
+
+    &__row {
+        display: flex;
+    }
+
+    // .zakaz__column
+
+    &__column {
+        flex: 0 1 50%;
+    }
+
+    // .zakaz__img
+
+    &__img {
+        padding: 40px 0px;
+    }
+
+    // .zakaz__button
+
+    &__button {
+        height: 50px;
+        line-height: 50px;
+        padding: 0px 31px;
+        margin: 0px 0px 15px 0px;
+    }
+}
+
+.form-zakaz {
+    padding: 150px 0px 180px 0px;
+    // .form-zakaz__input-name
+
+    &__input-name {
+        max-width: 250px;
+        background: transparent;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(51, 51, 51, 0.7);
+        border-bottom: 1px solid $mainColor;
+        margin: 0px 0px 50px 12px;
+        padding-bottom: 14px;
+    }
+
+    // .form-zakaz__input-phone
+
+    &__input-phone {
+        max-width: 250px;
+        background: transparent;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(51, 51, 51, 0.7);
+        border-bottom: 1px solid $mainColor;
+        margin: 0px 0px 70px 0px;
+        padding-bottom: 14px;
+    }
+}
+
+.checkbox {
+    display: block;
+    // .checkbox__input
+
+    &__input {
+    }
+
+    // .checkbox__text
+
+    &__text {
+        color: $mainColor;
+    }
+}
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================

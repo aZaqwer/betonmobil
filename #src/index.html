@@ -199,6 +199,34 @@
                 </div>
             </section>
 
+            <section class="zakaz">
+                <div class="zakaz__content _container">
+                    <div class="zakaz__title title">Закажи прямо сейчас</div>
+                    <div class="zakaz__subtitle">Мы перезвоним в течении 30 минут</div>
+                    <div class="zakaz__row">
+                        <div class="zakaz__column">
+                            <div class="zakaz__img">
+                                <img src="img/bg-zakaz.png" alt="">
+                            </div>
+                        </div>
+                        <div class="zakaz__column">
+                            <form action="#" class="form-zakaz">
+                                <input autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+                                    data-value="Ваше имя" class="input form-zakaz__input-name">
+                                <input autocomplete="off" type="text" name="form[]" data-error="Ошибка"
+                                    data-value="Телефон" class="input form-zakaz__input-phone">
+
+                                <a href="" class="zakaz__button btn btn_b">Перезвонить мне</a>
+                                <label class="checkbox">
+                                    <input data-error="Ошибка" class="checkbox__input" type="checkbox" value="1"
+                                        name="form[]">
+                                    <span class="checkbox__text"><span>Даю согласие на обработку данных</span></span>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </main>
         @@include('_footer.html',{})
