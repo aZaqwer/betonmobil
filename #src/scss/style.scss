@@ -356,6 +356,7 @@ body {
 
     &__row {
         display: flex;
+        justify-content: space-between;
     }
 
     // .zakaz__column
@@ -444,6 +445,8 @@ body {
 
     &__row {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
         margin: -30px -25px;
     }
@@ -456,6 +459,64 @@ body {
         //margin: 80px 0px 0px 0px;
         img {
             max-width: 100%;
+        }
+    }
+}
+
+//====================================================================================================
+.beton-map {
+    height: 590px;
+    position: relative;
+    // .beton-map__content
+
+    &__content {
+        height: 100%;
+    }
+
+    // .beton-map__map
+
+    &__map {
+        height: 100%;
+    }
+
+    // .beton-map__body
+
+    &__body {
+        position: absolute;
+        top: 150px;
+        left: 420px;
+        background: #ffffff;
+        border-radius: 6px;
+        padding: 45px;
+    }
+
+    // .beton-map__logo
+
+    &__logo {
+        margin: 0px 0px 35px 0px;
+    }
+
+    // .beton-map__list
+
+    &__list {
+        font-size: 16px;
+        line-height: 131%;
+        li {
+            margin: 0px 0px 15px 0px;
+            position: relative;
+            padding: 0px 0px 0px 25px;
+            &:last-child {
+                margin: 0;
+            }
+            &::before {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                content: "";
+                height: 1px;
+                width: 10px;
+                background-color: $mainColor;
+            }
         }
     }
 }
